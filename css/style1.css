@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+.header{
+    background: linear-gradient(#b9a4f7,#f8fafd,#b9a4f7);
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #b27ef7;
+    padding: 15px;
+    box-shadow: 4px 4px 4px rgb(95, 94, 94);
+}
+.head .logo img{
+    width: 70px;
+}
+.head .logo h3{
+    font-size: 25px;
+    font-family: 'Courier New', Courier;
+}
+.head .menu li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 80px;
+}
+.head .menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+}
+.inside{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text{
+    font-size: 30px;
+}
+.text .h1{
+    color: #000000;
+}
+.banner img{
+    padding-bottom: 50px;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.text .btn{
+    background: #9047f0;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 8px 16px;
+}
+.text .btn img{
+    width: 20px;
+}
+.dresses{
+    margin: 10px 60px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.dresses h3{
+    font-size: 22px;
+}
+h2{
+    font-size: 35px;
+    padding: 25px 0;
+}
+.price .btn{
+    background: #9a52fa;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 8px 16px;
+}
+.price .btn img{
+    width: 20px;
+    height: 20px;
+}
+.collection{
+    display: inline-block;
+    margin: 0px 30px;
+    background: white;
+    box-shadow: 5px 5px 5px rgb(119, 119, 119);
+    border-radius: 15px;
+    padding: 15px;
+}
+.collect img{
+    width: 350px;
+    height: 430px;
+    background: #f3efefe4;
+    border-radius: 15px;
+    padding: 10px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price h4{
+    font-size: 27px;
+    color: black;
+}
+.end{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    margin: 60px 0;
+}
+.right img{
+    width: 550px;
+    height: 400px;
+}
+.last{
+    display: inline-block;
+}
+.part{
+    background: rgb(208, 194, 250);
+    box-shadow: 5px 5px 5px rgb(135, 135, 135);
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+}
+.part img{
+    width: 90px;
+    height: 80px;
+}
+.part img,h3{
+    display: flex;
+    align-items: center;
+} 
+footer{
+    width: 100%;
+    position: relative;
+    background: #b9a4f7;;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin-top: -10px;
+}
+.text{
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px ;
+}
+.col-5 img{
+    width: 100%;
+    height: 70%;
+    cursor: pointer;
+    padding: 40px 0;
+}
+.col-5{
+    flex-basis: 50%;
+    min-width: 500px;
+}
+.col-5 h2{
+    text-align: center;
+    padding-top: 50px;
+}
+footer input[type='email']{
+    width: calc(100vw - 40vw);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 30px 0 0 30px;
+    outline: none;
+    border: none;
+    color: black;
+}
+footer input[type='submit']{
+     border: none;
+    border-radius: 0 30px 30px 0;
+    padding: 10px;
+    background: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+footer input:hover[type='submit']{background: #ae7bf5;}
+.list-footer {
+    margin: 20px;
+    display: flex;
+    list-style-type: none;
+}
+.list-footer li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+.media{
+    margin: 20px;
+}
+.media i{
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+}   
